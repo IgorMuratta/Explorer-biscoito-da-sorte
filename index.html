@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorer | Biscoito da Sorte</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/icon.svg">
+
+    <!-- Google Fonts Dancing Script-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <!-- Google Fonts Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Google Fonts DM sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <section class="card-first">
+           <h1>
+            Qual é a sua sorte de hoje?
+           </h1>
+
+           <p>
+                Abra o biscoito e descubra!
+           </p>
+
+           <img id="closed-biscuit" src="./assets/fortune-cookie.png" alt="">
+        </section>
+
+
+        <section class="card-reveal hide">
+            <h1>
+                Aqui está a sua sorte de hoje:
+            </h1>
+            
+            <div class="card-reveal-show">
+                <p></p>
+            </div>
+ 
+            <img src="./assets/opened-cookie.png" alt="">
+
+            <button id="btnClose">
+                Abrir outro biscoito
+            </button>
+
+         </section>
+    </main>
+    
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
